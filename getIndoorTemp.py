@@ -38,3 +38,13 @@ def getIndoorTemp(units, offset = 0.0):
         return 0
     except:
         return 0
+        
+if __name__ == "__main__":
+    temp = getIndoorTemp('F')
+    if temp != 0:
+        print ("Temperature is %f" % temp)
+    else:
+        print ("Error reading temperature")
+        exit(-1)
+    exit(0)
+    

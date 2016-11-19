@@ -1,3 +1,13 @@
+# Petonic update notes
+
+## {2016-10-09 SUN 11:03} 
+
+Took the main fork of ThermOS and made the following changes:
+
+* Removing functionality for AC since I'm in Marin County.  Just need Heat.  
+* Move to a different port(7001)
+* Start up fullscreen Chromium browser on the display automagically, pointing to the correct port.
+
 [<img src="../gh-pages/images/banner.jpg">](https://mholgatem.github.io/ThermOS/)
 
 ## Setup
